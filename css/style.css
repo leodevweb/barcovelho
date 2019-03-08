@@ -1,14 +1,3 @@
-.row-size {
-  width: auto;
-  height: 400px; }
-
-.column1 {
-  width: 200px;
-  height: 370px; }
-
-.frame {
-  margin-top: 3px; }
-
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -7030,6 +7019,17 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+.row-size {
+  width: auto;
+  height: 400px; }
+
+.column1 {
+  width: 200px;
+  height: 370px; }
+
+.frame {
+  margin-top: 3px; }
 
 .efeito {
   transition: all 0.3s ease; }

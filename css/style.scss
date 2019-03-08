@@ -97,9 +97,9 @@ $yiq-text-dark:             $gray-900 !default;
 $yiq-text-light:            $white !default;
 
 
+@import '../node_modules/bootstrap/scss/bootstrap'; //IMPORTA O BOOTSTRAP
 
-
-////teste.html
+//AQUI COMEÇA A MINHA CUSTOMIZAÇÃO
 .row-size{
   width: auto;
   height: 400px;
@@ -112,11 +112,8 @@ $yiq-text-light:            $white !default;
 .frame{ //barra do soundcluod alinhado
   margin-top: 3px;
 }
-//////
 
-
-@import '../node_modules/bootstrap/scss/bootstrap';
-
+//EFEITO DE TRANSIÇÃO DAS FOTOS DA GALERIA
 .efeito {
   transition: all 0.3s ease;
 }
@@ -148,4 +145,7 @@ p{
   font-family: 'BarcoFonteP';
 }
 
+//MUDA AS CORES DO FORMULÁRIOS
 .form-control:focus { border-color:#0a0a0f;  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(10, 10, 15,0.6); box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(10, 10, 15, 0.6);}
+
+//AQUI TERMINA A MINHA CUSTOMIZAÇÃO
